@@ -243,17 +243,17 @@ class RedBlackTree():
             self.__print_helper(node.direito, indent, True)
     
     # Pre-Order traversal
-    # Node.esquerdo Subtree.direito Subtree
+    # Node.Left Subtree.Right Subtree
     def preorder(self):
         self.__pre_order_helper(self.raiz)
 
     # In-Order traversal
-    # esquerdo Subtree . Node . direito Subtree
+    # left Subtree . Node . Right Subtree
     def inorder(self):
         self.__in_order_helper(self.raiz)
 
     # Post-Order traversal
-    # esquerdo Subtree . direito Subtree . Node
+    # Left Subtree . Right Subtree . Node
     def postorder(self):
         self.__post_order_helper(self.raiz)
 
