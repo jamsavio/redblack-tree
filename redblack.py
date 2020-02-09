@@ -1,4 +1,4 @@
-# Red Black Tree implementation in Python 2.7
+# Red Black Tree implementation in Python 
 # Tutorial URL: https://algorithmtutor.com/Data-Structures/Tree/Red-Black-Trees/
 
 import sys
